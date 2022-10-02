@@ -1,8 +1,25 @@
 section {
-    padding: 60px 0;
+    padding: 60px 0 100px;
 }
 
 section .container {
     justify-content: center;
+    flex-direction: column;
     text-align: center;
+}
+
+section .container p {
+    margin: 20px 0 10px;
+    max-width: 880px;
+}
+
+p.descricao {
+    font-size: 14px;
+}
+
+p.autor {
+    font-family: 'Great Vibes';
+    font-size: 30px;
+    font-weight: 600;
+    color: #ad9a86;
 }

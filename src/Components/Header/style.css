@@ -1,0 +1,53 @@
+header {
+    height: 70px;
+}
+
+.container {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.btn-mode {
+    background-color: transparent;
+    width: 90px;
+    height: 40px;
+    border: 2px solid #bd9b5b;
+    border-radius: 20px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.btn-mode span {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.logo, .img-mode {
+    height: 100%;
+}
+
+.light-mode, .light-mode span {
+    color: var(--color-light-mode);
+}
+
+.dark-mode, .dark-mode span {
+    color: var(--color-dark-mode);
+}
+
+.light-mode {
+    background-color: var(--bg-light-mode);
+}
+
+.dark-mode {
+    background-color: var(--bg-dark-mode);
+}
+

@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 
 const Header = ({darkMode, setDarkMode}) => (
-    <header className={darkMode ? 'dark-mode' : 'ligth-mode'}>
+    <header>
         <div className="container">
             <img src="./assets/barbearia-logo.png" className="logo" alt="logo da barbearia" />
             <button className="btn-mode" onClick={() => setDarkMode(!darkMode)}>

@@ -13,3 +13,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.landingPage {
+    min-height: 100vh;
+}
+
+.light-mode, .light-mode *{
+    color: var(--color-light-mode);
+    background-color: var(--bg-light-mode);
+}
+
+.dark-mode, .dark-mode *{
+    color: var(--color-dark-mode);
+    background-color: var(--bg-dark-mode);
+}

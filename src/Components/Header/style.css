@@ -13,7 +13,7 @@ header {
 }
 
 .btn-mode {
-    background-color: transparent;
+    background-color: inherit;
     width: 90px;
     height: 40px;
     border: 2px solid #bd9b5b;
@@ -35,19 +35,6 @@ header {
     height: 100%;
 }
 
-.light-mode, .light-mode span {
-    color: var(--color-light-mode);
-}
 
-.dark-mode, .dark-mode span {
-    color: var(--color-dark-mode);
-}
 
-.light-mode {
-    background-color: var(--bg-light-mode);
-}
-
-.dark-mode {
-    background-color: var(--bg-dark-mode);
-}
 

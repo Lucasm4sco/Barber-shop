@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 
 const Content = ({darkMode}) => (
-    <section className={darkMode ? 'dark-mode' : 'light-mode'}>
+    <section>
         <div className="container">
             <h1>Bem-vindo a Barber Shop</h1>
             <p>

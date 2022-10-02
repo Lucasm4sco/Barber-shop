@@ -9,11 +9,11 @@ const LandingPage = () => {
     let [ darkMode, setDarkMode ] = useState(false);
 
     return (
-        <div className="landingPage">
+        <div className={ (darkMode ? 'dark-mode' : 'ligth-mode') + ' landingPage' }>
             <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
             <main>
                 <Banner />
-                <Content darkMode={darkMode}/>
+                <Content />
             </main>
         </div>
     );
